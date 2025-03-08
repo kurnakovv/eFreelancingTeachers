@@ -1,5 +1,5 @@
 name: "🔥 Security alert"
-description: Create a new ticket for a bug.
+description: Create a new ticket for a security.
 title: "🔥 [Security alert] - <title>"
 labels: [
   "security"
