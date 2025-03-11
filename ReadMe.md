@@ -12,3 +12,35 @@
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCiwWJWKublIIozujIm0CVFw)
 
 </div>
+
+<img src="docs/images/MainPage.png" style="border-radius: 14px 14px 0px 0px;" />
+<img src="docs/images/TeacherMainPage.png" style="border-radius: 0px 0px 14px 14px;" />
+
+# Preview images
+
+> Note: All images are not the real app, they were drawn by myself
+
+<details>
+    <summary>Problem</summary>
+    <img src="docs/images/Problem.png" style="border-radius: 14px;" />
+</details>
+
+<details>
+    <summary>Discussion</summary>
+    <img src="docs/images/Discussion.png" style="border-radius: 14px;" />
+</details>
+
+<details>
+    <summary>Offer</summary>
+    <img src="docs/images/Offers.png" style="border-radius: 14px;" />
+</details>
+
+<details>
+    <summary>Review</summary>
+    <img src="docs/images/Review.png" style="border-radius: 14px;" />
+</details>
+
+<details>
+    <summary>Feedback</summary>
+    <img src="docs/images/Feedback.png" style="border-radius: 14px;" />
+</details>
