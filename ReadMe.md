@@ -44,3 +44,73 @@
     <summary>Feedback</summary>
     <img src="docs/images/Feedback.png" style="border-radius: 14px;" />
 </details>
+<br/>
+
+# Technologies
+### In use
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+ <img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" width="50" height="50"/>
+</a>
+<a href="https://dotnet.microsoft.com/en-us/">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png" width="50" height="50"/>
+</a>
+<a href="https://dotnet.microsoft.com/en-us/apps/aspnet">
+ <img src="https://codeopinion.com/wp-content/uploads/2017/06/Bitmap-MEDIUM_ASP.NET-Core-MVC-Logo_2colors_Square_Boxed_RGB.png" width="50" height="50"/>
+</a>
+
+### Will use
+<a href="https://www.docker.com/">
+ <img src="https://isd-soft.com/wp-content/uploads/2016/12/docker_logo.png" width="50" height="50"/>
+</a>
+<a href="https://www.postgresql.org/">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="50" height="50"/>
+</a>
+<a href="https://learn.microsoft.com/en-us/ef/core/">
+ <img src="docs/images/technologies/efcore.png" width="50" height="50"/>
+</a>
+<a href="https://xunit.net/">
+ <img src="docs/images/technologies/xunit-17f55c98bd.png" width="50" height="50"/>
+</a>
+<a href="https://jwt.io/">
+ <img src="docs/images/technologies/jwt.png" width="50" height="50"/>
+</a>
+<a href="https://automapper.org/">
+ <img src="docs/images/technologies/automapper.png" width="50" height="50"/>
+</a>
+<a href="https://min.io/">
+ <img src="docs/images/technologies/MINIO_Bird.png" width="30" height="50"/>
+</a>
+<a href="https://github.com/Graylog2/graylog2-server">
+ <img src="docs/images/technologies/graylog.png" width="50" height="50"/>
+</a>
+<a href="https://github.com/App-vNext/Polly">
+ <img src="docs/images/technologies/polly.png" width="50" height="50"/>
+</a>
+<a href="https://github.com/redis/redis">
+ <img src="docs/images/technologies/redis.png" width="50" height="50"/>
+</a>
+<a href="https://dotnet.microsoft.com/en-us/apps/aspnet/signalr">
+ <img src="docs/images/technologies/SignalR.jpg" width="80" height="50"/>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/HTML">
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="50" height="50"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/CSS">
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="50" height="50"/>
+</a>
+<a href="https://www.typescriptlang.org/">
+ <img src="docs/images/technologies/typescript-icon-icon-1024x1024-vh3pfez8.png" width="50" height="50"/>
+</a>
+<a href="https://react.dev/">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="50" height="50"/>
+</a>
+<a href="https://mui.com/">
+ <img src="https://mui.com/static/logo.png" width="50" height="50"/>
+</a>
+<a href="https://getbootstrap.com/">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/220px-Bootstrap_logo.svg.png" width="50" height="50"/>
+</a>
+<a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png" width="50" height="50"/>
+</a>
