@@ -1,5 +1,5 @@
 <div align="center">
- <img src="docs/images/ApplicationIcon.png" weight="100px" height="100" />
+ <img src="docs/images/ApplicationIcon.png" weight="100" height="100" />
  <h2>eFreelancingTeachers</h2>
 
 <!-- ToDo: Add real badges -->
@@ -13,8 +13,8 @@
 
 </div>
 
-<img src="docs/images/MainPage.png" style="border-radius: 14px 14px 0px 0px;" />
-<img src="docs/images/TeacherMainPage.png" style="border-radius: 0px 0px 14px 14px;" />
+<kbd><img src="docs/images/MainPage.png" /></kbd></br></br>
+<kbd><img src="docs/images/TeacherMainPage.png" /></kbd>
 
 # Preview images
 
@@ -22,27 +22,27 @@
 
 <details>
     <summary>Problem</summary>
-    <img src="docs/images/Problem.png" style="border-radius: 14px;" />
+    <kbd><img src="docs/images/Problem.png" width="500" /></kbd>
 </details>
 
 <details>
     <summary>Discussion</summary>
-    <img src="docs/images/Discussion.png" style="border-radius: 14px;" />
+    <kbd><img src="docs/images/Discussion.png" width="400" /></kbd>
 </details>
 
 <details>
     <summary>Offer</summary>
-    <img src="docs/images/Offers.png" style="border-radius: 14px;" />
+    <kbd><img src="docs/images/Offers.png" width="800" /></kbd>
 </details>
 
 <details>
     <summary>Review</summary>
-    <img src="docs/images/Review.png" style="border-radius: 14px;" />
+    <kbd><img src="docs/images/Review.png" width="400" /></kbd>
 </details>
 
 <details>
     <summary>Feedback</summary>
-    <img src="docs/images/Feedback.png" style="border-radius: 14px;" />
+    <kbd><img src="docs/images/Feedback.png" width="800" /></kbd>
 </details>
 <br/>
 
@@ -92,7 +92,7 @@
 <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/signalr">
  <img src="docs/images/technologies/SignalR.jpg" width="80" height="50"/>
 </a>
-
+</br>
 <a href="https://en.wikipedia.org/wiki/HTML">
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="50" height="50"/>
 </a>
