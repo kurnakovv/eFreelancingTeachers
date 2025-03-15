@@ -126,51 +126,51 @@ The application is based on the principle of a modular monolith
 
 <details>
     <summary>Modules</summary>
-    <img src="docs/images/architecture/application/Modules.png" style="border-radius: 14px; max-width: 600px;" />
-    <img src="docs/images/architecture/application/ModulesExampleVS.png" style="border-radius: 14px; max-width: 600px;" />
-    <img src="docs/images/architecture/application/FeatureArchitecture.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/application/Modules.png" width="600" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/ModulesExampleVS.png" width="400" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/FeatureArchitecture.png" /></kbd>
 </details>
 
 <details>
     <summary>Dependencies</summary>
-    <img src="docs/images/architecture/application/MainIdea.png" style="border-radius: 14px; max-width: 600px;" />
-    <img src="docs/images/architecture/application/ArchitectureExampleVS.png" style="border-radius: 14px; max-width: 600px;" />
-    <img src="docs/images/architecture/application/AbstractModule.png" style="border-radius: 14px; max-width: 700px;" />
+    <kbd><img src="docs/images/architecture/application/MainIdea.png" width="600" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/ArchitectureExampleVS.png" width="400" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/AbstractModule.png" width="900" /></kbd>
 </details>
 
 <details>
     <summary>Clean architecture</summary>
-    <img src="docs/images/architecture/application/InnerModuleArchitecture.png" style="border-radius: 14px; max-width: 600px;" />
-    <img src="docs/images/architecture/application/microsoft_clean_architecture.png" style="border-radius: 14px; max-width: 600px;" />
+    <kbd><img src="docs/images/architecture/application/InnerModuleArchitecture.png" width="900" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/microsoft_clean_architecture.png" width="900" /></kbd>
 </details>
 
 <details>
     <summary>Shared</summary>
-    <img src="docs/images/architecture/application/Shared.png" style="border-radius: 14px; max-width: 300px;" />
-    <img src="docs/images/architecture/application/SharedExampleVS.png" style="border-radius: 14px; max-width: 300px;" />
+    <kbd><img src="docs/images/architecture/application/Shared.png" width="300" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/SharedExampleVS.png" width="300" /></kbd>
 </details>
 
 ### DB
 
 <details>
     <summary>Designations</summary>
-    <img src="docs/images/architecture/db/Designations.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/db/Designations.png" width="800" /></kbd>
 </details>
 <details>
     <summary>Schema</summary>
-    <img src="docs/images/architecture/db/Main.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/db/Main.png" /></kbd>
 </details>
 
 ### User Flow
 <details>
     <summary>Designations</summary>
-    <img src="docs/images/architecture/userFlow/designations.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/userFlow/designations.png" width="800" /></kbd>
 </details>
 <details>
     <summary>Parent</summary>
-    <img src="docs/images/architecture/userFlow/ParentFlow.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/userFlow/ParentFlow.png" /></kbd>
 </details>
 <details>
     <summary>Teacher</summary>
-    <img src="docs/images/architecture/userFlow/TeacherFlow.png" style="border-radius: 14px; max-width: 800px;" />
+    <kbd><img src="docs/images/architecture/userFlow/TeacherFlow.png" /></kbd>
 </details>
