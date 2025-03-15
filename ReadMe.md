@@ -1,5 +1,5 @@
 <div align="center">
- <img src="docs/images/ApplicationIcon.png" weight="100px" height="100" />
+ <img src="docs/images/ApplicationIcon.png" weight="100" height="100" />
  <h2>eFreelancingTeachers</h2>
 
 <!-- ToDo: Add real badges -->
