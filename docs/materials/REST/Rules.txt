@@ -1,0 +1,9 @@
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+https://www.youtube.com/watch?v=yWzesBoTOvE
+https://stackoverflow.com/questions/13025417/what-is-the-different-between-restful-and-restless
+
+1: REST is standard (do not try to do it perfect)
+2: Use nouns instead of verbs in endpoint paths
+3: Use logical nesting on endpoints
+4: Status code is important (not only 200)
+5: Server must protect himself (not only client)

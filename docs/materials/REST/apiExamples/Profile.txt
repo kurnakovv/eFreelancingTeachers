@@ -1,0 +1,187 @@
+// https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources
+# Auth:
+
+---------------------------------------------
+request
+POST api/auth/profile/{type} - registration
+{
+    "email": "test@email.region",
+    "password": "12345abcde",
+    "repeatedPassword": "12345abcde",
+    "firstName": "Vasia",
+    "lastName": "Petrov",
+    "phone": "+123456789",
+    "contacts": {
+        "Telegram": "https://telegram/test",
+        "VK": "https://vk.com/test",
+    }
+    "teacher": { // nullable
+        "certificates": IEnumerable<IFormFile> // or other file format (depends on your language)
+        "subjects": [
+            Subject.English,
+            Subject.Spanish
+        ]
+    },
+    "parent": { // nullable
+        "childs": [
+            {
+                "firstName": "Petia",
+                "lastName": "Vasiliev",
+                "dateOfBirth": "2024-04-30T07:56:05.320Z"
+            },
+            {
+                // etc
+            }
+        ]
+    }
+}
+201
+{
+    "id": 12345 // access/refresh token (but will think later)
+}
+400 - Invalid parameters
+409 - Conflict, profile already exists
+422 - Invalid values
+---------------------------------------------
+
+---------------------------------------------
+request
+POST api/auth/profile/session/{type} - login
+{
+    "email": "test@email.region",
+    "password": "12345abcde",
+}
+response
+201
+{
+    "id": 12345 // access/refresh token (but will think later)
+}
+400 - Invalid parameters
+404 - Profile not found
+422 - Invlid email or password
+---------------------------------------------
+
+---------------------------------------------
+request
+DELETE api/auth/profile/session/{type} - logout
+{
+    "id": 12345
+}
+response
+204 - OK
+400 - Invalid parameters
+404 - Not found
+---------------------------------------------
+
+# Profile
+
+---------------------------------------------
+request
+GET api/profiles/{type}
+{
+    "pagination": {
+        "skip": 10,
+        "take": 10
+    },
+    "fields": [ // GraphQL
+        "FirstName", "LastName",
+        "Password" // invalid
+    ],
+    "parentFields": [ // nullable
+        "Child__FirstName"
+    ],
+    "teacherFields": [ // nullable
+        "Subjects"
+    ]
+}
+response
+200
+{
+    [
+        {
+            "firstName": "Vasia",
+            "lastName": "Petrov",
+            "parent": { // nullable
+                "childs": [
+                    {
+                        "firstName": "Petia",
+                        "lastName": "Vasiliev",
+                        "dateOfBirth": "2024-04-30T07:56:05.320Z"
+                    },
+                    {
+                        // etc
+                    }
+                ]
+            },
+            "teacher": { // nullable
+                "subjects": [
+                    Subject.English,
+                    Subject.Spanish
+                ]
+            }
+        },
+        {
+            ...
+        }
+    ]
+}
+---------------------------------------------
+
+---------------------------------------------
+request
+GET api/profile/{type}/{id}
+{
+    "fields": [
+        "FirstName", "LastName",
+        "Password" // invalid
+    ],
+    "parentFields": [ // nullable
+        "Child__FirstName"
+    ],
+    "teacherFields": [ // nullable
+        "Subjects"
+    ]
+}
+response
+200
+{
+    "firstName": "Vasia",
+    "lastName": "Petrov",
+    "parent": { // nullable
+        "childs": [
+            {
+                "firstName": "Petia",
+                "lastName": "Vasiliev",
+                "dateOfBirth": "2024-04-30T07:56:05.320Z"
+            },
+            {
+                // etc
+            }
+        ]
+    },
+    "teacher": { // nullable
+        "subjects": [
+            Subject.English,
+            Subject.Spanish
+        ]
+    }
+}
+400 - Invalid parameters
+404 - Not found
+---------------------------------------------
+
+---------------------------------------------
+request
+PATCH api/profile/{type}/{id}
+{
+    "firstName": "New name",
+    "fields": [
+        "FirstName"
+    ],
+}
+response
+200 - OK
+304 - Not Modified
+400 - Invlid parameters
+422 - Invalid values
+---------------------------------------------

@@ -1,0 +1,15 @@
+# Offer
+
+---------------------------------------------
+CRUD // POST, GET, PUT/PATCH, and DELETE
+---------------------------------------------
+
+request
+PUT api/offer/status/{id}
+{
+    "userId": 12345, // invalid, must be header
+    "type": "accept"
+}
+
+response
+200, 304, 400, 401, 404

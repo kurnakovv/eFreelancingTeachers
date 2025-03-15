@@ -1,0 +1,39 @@
+# Reputation
+
+request
+GET api/reputation/{userId}
+
+response
+{
+    "disscussionComments": [
+        {
+            "id": 12345
+            "reaction": "up"
+            "points": 2,
+            "disscussionId": 54321,
+            "commentId": 23243,
+            "userId": 23444
+        },
+        {
+            ...
+        }
+    ],
+    "feedbacks": [
+        {
+            "id": 12345
+            "reaction": "up"
+            "points": 100,
+            "feedbackId": 213434,
+            "userId": 23444
+        },
+        {
+            ...
+        }
+    ],
+}
+
+GET api/reputation/total/{userId}
+GET api/reputation/top/{length}
+
+response
+200, 400, 401, 404
