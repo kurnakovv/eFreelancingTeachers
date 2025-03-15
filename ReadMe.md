@@ -92,7 +92,7 @@
 <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/signalr">
  <img src="docs/images/technologies/SignalR.jpg" width="80" height="50"/>
 </a>
-
+</br>
 <a href="https://en.wikipedia.org/wiki/HTML">
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="50" height="50"/>
 </a>
