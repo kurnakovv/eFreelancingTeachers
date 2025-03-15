@@ -114,3 +114,63 @@
 <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png" width="50" height="50"/>
 </a>
+
+</br>
+
+# Architecture
+The application is based on the principle of a modular monolith
+* https://github.com/denis-tsv/ModularMonolith
+* https://github.com/kurnakovv/ModularMonolith
+
+### Application
+
+<details>
+    <summary>Modules</summary>
+    <img src="docs/images/architecture/application/Modules.png" style="border-radius: 14px; max-width: 600px;" />
+    <img src="docs/images/architecture/application/ModulesExampleVS.png" style="border-radius: 14px; max-width: 600px;" />
+    <img src="docs/images/architecture/application/FeatureArchitecture.png" style="border-radius: 14px; max-width: 800px;" />
+</details>
+
+<details>
+    <summary>Dependencies</summary>
+    <img src="docs/images/architecture/application/MainIdea.png" style="border-radius: 14px; max-width: 600px;" />
+    <img src="docs/images/architecture/application/ArchitectureExampleVS.png" style="border-radius: 14px; max-width: 600px;" />
+    <img src="docs/images/architecture/application/AbstractModule.png" style="border-radius: 14px; max-width: 700px;" />
+</details>
+
+<details>
+    <summary>Clean architecture</summary>
+    <img src="docs/images/architecture/application/InnerModuleArchitecture.png" style="border-radius: 14px; max-width: 600px;" />
+    <img src="docs/images/architecture/application/microsoft_clean_architecture.png" style="border-radius: 14px; max-width: 600px;" />
+</details>
+
+<details>
+    <summary>Shared</summary>
+    <img src="docs/images/architecture/application/Shared.png" style="border-radius: 14px; max-width: 300px;" />
+    <img src="docs/images/architecture/application/SharedExampleVS.png" style="border-radius: 14px; max-width: 300px;" />
+</details>
+
+### DB
+
+<details>
+    <summary>Designations</summary>
+    <img src="docs/images/architecture/db/Designations.png" style="border-radius: 14px; max-width: 800px;" />
+</details>
+<details>
+    <summary>Schema</summary>
+    <img src="docs/images/architecture/db/Main.png" style="border-radius: 14px; max-width: 800px;" />
+</details>
+
+### User Flow
+<details>
+    <summary>Designations</summary>
+    <img src="docs/images/architecture/userFlow/designations.png" style="border-radius: 14px; max-width: 800px;" />
+</details>
+<details>
+    <summary>Parent</summary>
+    <img src="docs/images/architecture/userFlow/ParentFlow.png" style="border-radius: 14px; max-width: 800px;" />
+</details>
+<details>
+    <summary>Teacher</summary>
+    <img src="docs/images/architecture/userFlow/TeacherFlow.png" style="border-radius: 14px; max-width: 800px;" />
+</details>

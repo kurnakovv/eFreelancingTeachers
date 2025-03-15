@@ -1,0 +1,63 @@
+# Disscussion
+
+---------------------------------------------
+request
+GET /api/disscussion/{id}
+
+response
+200
+{
+    comments: [ 
+        message,
+        date,
+        user: { // think
+            id,
+            type
+        }
+    ]
+}
+404
+---------------------------------------------
+
+---------------------------------------------
+request
+GET /api/disscussion/length/{id}
+{
+    value
+}
+
+response
+200, 404
+---------------------------------------------
+
+---------------------------------------------
+request
+POST /api/disscussion/comment
+{
+    id,
+    message
+}
+
+response
+201, 401, 404, 422
+---------------------------------------------
+
+---------------------------------------------
+request
+PUT /api/disscussion/comment
+{
+    id,
+    message,
+}
+
+response
+200, 401, 404, 422
+---------------------------------------------
+
+---------------------------------------------
+request
+DELETE /api/disscussion/comment/{commentId}
+
+response
+204, 401, 404
+---------------------------------------------
