@@ -178,3 +178,7 @@ The application is based on the principle of a modular monolith
 # Instructions
 * [Start](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Start)
 * [Linters](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Linters)
+
+# RoadMap
+* [Features](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Features)
+* [Plans](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Plans)
