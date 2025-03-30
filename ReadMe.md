@@ -189,3 +189,6 @@ If you want to contribute to a project and make it better, your help is very wel
 Instructions for all members ([here](docs/CONTRIBUTING.md))
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=kurnakovv/eFreelancingTeachers)
+
+# Terms
+If you don't understand a specific word or abbreviation, try to find it [here](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Terms)
