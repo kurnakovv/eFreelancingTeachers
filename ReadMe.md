@@ -182,3 +182,10 @@ The application is based on the principle of a modular monolith
 # RoadMap
 * [Features](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Features)
 * [Plans](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Plans)
+
+# Contributing
+If you want to contribute to a project and make it better, your help is very welcome ❤️
+
+Instructions for all members ([here](docs/CONTRIBUTING.md))
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=kurnakovv/eFreelancingTeachers)
