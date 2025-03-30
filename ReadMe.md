@@ -192,3 +192,10 @@ Instructions for all members ([here](docs/CONTRIBUTING.md))
 
 # Terms
 If you don't understand a specific word or abbreviation, try to find it [here](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Terms)
+
+# Playlist
+![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCiwWJWKublIIozujIm0CVFw)
+
+<a href="https://www.youtube.com/watch?v=fa8FwbUxYS0&list=PLnx9d5YFCvc5gJ-35oZf40Y9npSbyNImG&index=1&pp=0gcJCR0AztywvtLA"><img src="docs/images/YouTubeCourse.png" alt="YouTube Course" width="350" /></a>
+
+I create this application from scratch absolutely free in Russian language, click on the picture to go to viewing, you can also watch them on [Rutube](https://rutube.ru/plst/380675/) and [VK video](https://vkvideo.ru/playlist/423630638_4/video423630638_456239168)
