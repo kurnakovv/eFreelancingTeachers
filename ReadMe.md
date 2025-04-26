@@ -12,3 +12,35 @@
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCiwWJWKublIIozujIm0CVFw)
 
 </div>
+
+<kbd><img src="docs/images/MainPage.png" /></kbd></br></br>
+<kbd><img src="docs/images/TeacherMainPage.png" /></kbd>
+
+# Preview images
+
+> Note: All images are not the real app, they were drawn by myself
+
+<details>
+    <summary>Problem</summary>
+    <kbd><img src="docs/images/Problem.png" width="500" /></kbd>
+</details>
+
+<details>
+    <summary>Discussion</summary>
+    <kbd><img src="docs/images/Discussion.png" width="400" /></kbd>
+</details>
+
+<details>
+    <summary>Offer</summary>
+    <kbd><img src="docs/images/Offers.png" width="800" /></kbd>
+</details>
+
+<details>
+    <summary>Review</summary>
+    <kbd><img src="docs/images/Review.png" width="400" /></kbd>
+</details>
+
+<details>
+    <summary>Feedback</summary>
+    <kbd><img src="docs/images/Feedback.png" width="800" /></kbd>
+</details>
