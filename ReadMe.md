@@ -174,3 +174,7 @@ The application is based on the principle of a modular monolith
     <summary>Teacher</summary>
     <kbd><img src="docs/images/architecture/userFlow/TeacherFlow.png" /></kbd>
 </details>
+
+# Instructions
+* [Start](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Start)
+* [Linters](https://github.com/kurnakovv/eFreelancingTeachers/wiki/Linters)
