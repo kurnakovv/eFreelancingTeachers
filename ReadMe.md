@@ -114,3 +114,63 @@
 <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png" width="50" height="50"/>
 </a>
+
+</br>
+
+# Architecture
+The application is based on the principle of a modular monolith
+* https://github.com/denis-tsv/ModularMonolith
+* https://github.com/kurnakovv/ModularMonolith
+
+### Application
+
+<details>
+    <summary>Modules</summary>
+    <kbd><img src="docs/images/architecture/application/Modules.png" width="600" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/ModulesExampleVS.png" width="400" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/FeatureArchitecture.png" /></kbd>
+</details>
+
+<details>
+    <summary>Dependencies</summary>
+    <kbd><img src="docs/images/architecture/application/MainIdea.png" width="600" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/ArchitectureExampleVS.png" width="400" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/AbstractModule.png" width="900" /></kbd>
+</details>
+
+<details>
+    <summary>Clean architecture</summary>
+    <kbd><img src="docs/images/architecture/application/InnerModuleArchitecture.png" width="900" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/microsoft_clean_architecture.png" width="900" /></kbd>
+</details>
+
+<details>
+    <summary>Shared</summary>
+    <kbd><img src="docs/images/architecture/application/Shared.png" width="300" /></kbd></br></br>
+    <kbd><img src="docs/images/architecture/application/SharedExampleVS.png" width="300" /></kbd>
+</details>
+
+### DB
+
+<details>
+    <summary>Designations</summary>
+    <kbd><img src="docs/images/architecture/db/Designations.png" width="800" /></kbd>
+</details>
+<details>
+    <summary>Schema</summary>
+    <kbd><img src="docs/images/architecture/db/Main.png" /></kbd>
+</details>
+
+### User Flow
+<details>
+    <summary>Designations</summary>
+    <kbd><img src="docs/images/architecture/userFlow/designations.png" width="800" /></kbd>
+</details>
+<details>
+    <summary>Parent</summary>
+    <kbd><img src="docs/images/architecture/userFlow/ParentFlow.png" /></kbd>
+</details>
+<details>
+    <summary>Teacher</summary>
+    <kbd><img src="docs/images/architecture/userFlow/TeacherFlow.png" /></kbd>
+</details>

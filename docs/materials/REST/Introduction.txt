@@ -1,0 +1,5 @@
+- Not a REST architector
+- Not a final version
+- Sorry for speed
+- Experience working only with RESTless
+- Not TT, only REST
