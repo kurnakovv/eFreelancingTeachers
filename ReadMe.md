@@ -9,6 +9,7 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=KurnakovMaksim_jiraF&metric=coverage)](https://sonarcloud.io/summary/new_code?id=KurnakovMaksim_jiraF)
 [![CodeQL](https://github.com/KurnakovMaksim/jiraF-goal/workflows/CodeQL/badge.svg)](https://github.com/KurnakovMaksim/jiraF-goal/actions?query=workflow%3ACodeQL)
 [![Codecov](https://codecov.io/gh/KurnakovMaksim/jiraF/branch/main/graph/badge.svg)](https://codecov.io/gh/KurnakovMaksim/jiraF)
+[![pvs studio](https://custom-icon-badges.demolab.com/badge/pvs-studio-blue.svg?logo=codescan-checkmark&logoColor=white)](https://pvs-studio.com/en/pvs-studio/?utm_source=website&utm_medium=github&utm_campaign=open_source)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCiwWJWKublIIozujIm0CVFw)
 
 </div>
@@ -199,3 +200,7 @@ If you don't understand a specific word or abbreviation, try to find it [here](h
 <a href="https://www.youtube.com/watch?v=fa8FwbUxYS0&list=PLnx9d5YFCvc5gJ-35oZf40Y9npSbyNImG&index=1&pp=0gcJCR0AztywvtLA"><img src="docs/images/YouTubeCourse.png" alt="YouTube Course" width="350" /></a>
 
 I create this application from scratch absolutely free in Russian language, click on the picture to go to viewing, you can also watch them on [Rutube](https://rutube.ru/plst/380675/) and [VK video](https://vkvideo.ru/playlist/423630638_4/video423630638_456239168)
+
+## SAST Tools
+
+[PVS-Studio](https://pvs-studio.com/en/pvs-studio/?utm_source=website&utm_medium=github&utm_campaign=open_source) - static analyzer for C, C++, C#, and Java code.
